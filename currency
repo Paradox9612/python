@@ -1,0 +1,8 @@
+# Write code below 💖
+
+co = int(input("enter amount in colombian pesos"))
+pe = int(input("enter amount in peruvian soles"))
+br = int(input("enter the amount in brazilian reais"))\
+
+usd = co *0.00024 +pe*0.28+br*0.1749423
+print(usd)
